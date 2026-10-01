@@ -2,7 +2,7 @@ public interface PoolPuzzle8 {
 }
 
 interface Nose {
-    public int iMethod();
+    int iMethod();
 }
 
 abstract class Picasso implements Nose {
@@ -13,7 +13,7 @@ abstract class Picasso implements Nose {
 
 class Clowns extends Picasso {}
 
-class Acts implements Nose {
+class Acts extends Picasso {
     public int iMethod() {
         return 5;
     }
