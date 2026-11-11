@@ -1,3 +1,6 @@
+import java.sql.SQLException;
+import java.sql.Wrapper;
+
 public class Of76 extends Clowns {
     public static void main(String[] args) {
         Nose []i = new Nose[3];
@@ -9,3 +12,19 @@ public class Of76 extends Clowns {
         }
     }
 }
+
+ class TestBox {
+    private Integer i;
+    private int j;
+
+     public static void main(String[] args) {
+         TestBox t = new TestBox();
+         t.go();
+     }
+
+         public void go() {
+             j = i;
+             System.out.println(j);
+             System.out.println(i);
+         }
+     }
